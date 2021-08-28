@@ -1,0 +1,459 @@
+body{
+    background-color: beige;
+}
+
+/* MAIN */
+
+    /*Sous-menu en dropdown de page */
+
+/* Dropdown Button */
+
+.Wdropbtn {
+    background-color: rgb(206, 106, 226);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+  }
+  
+        /* Container <div> */
+.wissembourg-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+        /* Dropdown content (Hidden by Default) */
+.Wdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9eceeb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(179, 230, 243, 0.2);
+    z-index: 1;
+}
+  
+        /* Liens dans dropdown */
+.Wdropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    display: block;
+}
+  
+        /* Changer couleur du dropdown avec hover */
+  .Wdropdown-content a:hover {background-color: #ddd;}
+  
+        /* Dérouler le dropdown menu avec hover */
+.wissembourg-dropdown:hover .Wdropdown-content {
+    display: block;
+}
+  
+        /* Changer background color du bouton de dropdown lors du déroulé du contenu du menu dropdown */
+.wissembourg-dropdown:hover .Wdropbtn {
+    background-color: #f6f869;
+}
+    
+  
+    /* Titre de page */
+.titre-wissembourg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "#pays-wissembourg-logo h2 #ville-wissembourg-logo";
+    width: 700px;
+    height: 180px;
+    border: 1px solid rgb(226, 24, 24);
+    border-radius: 10px;
+    background: linear-gradient(to left, white, rgb(207, 203, 203), rgb(223, 209, 209), rgb(243, 243, 102));
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.titre-wissembourg h2{
+    text-transform: uppercase;
+     color:#e40520;
+     margin-top: 1em;
+     margin-left: 30px;
+     margin-right: 30px;
+}
+
+#pays-wissembourg-logo{
+    margin-top: 3em;
+    margin-left: 50px;
+}
+
+#pays-wissembourg-logo img{
+    width: 100px;
+    border-radius: 5px;
+}
+
+#ville-wissembourg-logo{
+    margin-top: 2.5em;
+    margin-right: 40px;
+}
+
+#ville-wissembourg-logo img{
+    width: 80px;
+    border-radius: 5px;
+}
+
+    /* Introduction */
+
+.wissembourg-intro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.wissembourg-intro-tx{
+    width: 65%;
+}
+
+.wissembourg-intro-tx h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center; 
+    color:#e40520;
+}
+
+.wissembourg-intro-tx p{
+    font-size: 14px;
+    text-indent: 50px;
+    text-align: start;
+    margin-top: 2.5%;
+}
+
+/* SECTION : VISITE WISSEMBOURG */
+
+.visite-wissembourg h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center; 
+    color:#e40520; 
+}
+
+.visite-wissembourg{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#monument-img img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#monument-img{
+    margin-right: 15px;
+}
+
+.monument p{
+    font-size: 12px;
+    width: 235px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.monument h4{
+    width: 230px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.monument{
+    display: inline-flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+.monuments1, .monuments2, .monuments3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.monuments1, .monuments2{
+    margin-left: 10vh;
+}
+
+.monuments3{
+    margin-left: 20vh;
+    margin-top: 20px;
+}
+
+/* SECTION : PROMENADES WISSEMBOURG */
+
+#promW img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.promW-tx{
+    width: 50%;
+    margin-top: 3%;
+}
+
+.promW-tx h4{
+    width: 50%;
+    margin-left: 30%;
+}
+
+.promW-tx p{
+    font-size: 14px;
+    text-align: left;
+    text-indent: 50px;
+    margin-top: 2%;
+}
+
+.circuit-chapelles, .paysW, .colline-Geisberg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.colline-Geisberg{
+    margin-top: -15%;
+    padding-top: 20px;
+}
+
+.promenades-Wissembourg{
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-top: 5%;
+   background: linear-gradient(to right, rgb(198, 235, 240), rgb(192, 245, 192), rgb(103, 247, 103));
+   padding-top: 5%;
+   padding-left: 5%;
+   border-radius: 10px;
+   padding-bottom: 5%;
+   display: flex;
+   flex-direction: column;
+}
+
+.promenades-Wissembourg h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center; 
+    color:#e40520; 
+}
+
+    /* Vidéo sur le vignoble de Wissembourg */
+
+#wissembourg-vignoble-video{
+    margin-left: 15vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+/* SECTION : BUDGET WISSEMBOURG */
+
+.wissembourg-budget h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;  
+    color:#e40520; 
+}
+
+.wissembourg-budget{
+    margin-top: 5%;
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    background: linear-gradient(to right, white, lightblue, rgb(245, 245, 188), rgb(223, 217, 217));
+}
+
+#W-budget img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.W-budget-intro{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.W-budget-tx{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.W-budget-tx p{
+    text-align: left;
+    text-indent: 50px;
+    width: 70%;
+}
+
+#Wweek-end{
+    margin-left: 20%;
+}
+
+#Wweek-end img {
+    width: 90vh;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+#Wbudget-semaine img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.Wweek-end-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: -10%;
+}
+
+.budget-semaine1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+}
+
+.budget-week-end-tx, .Wbudget-semaine{
+    margin-top: 10%;
+}
+
+.budget-week-end-tx, .Wbudget-semaine{
+    margin-left: 20px;
+}
+
+.budget-week-end-tx h4, .Wbudget-semaine h4{
+    width: 80%;
+    margin-left: 20px;
+}
+
+.budget-week-end-tx p, .Wbudget-semaine p {
+    text-align: left;
+    text-indent: 50px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.Wweek-end-1{
+    margin-left: -30vh;
+}
+
+.Wbudget-semaine p{
+    text-align: left;
+    text-indent: 50px;
+    width: 70%;
+}
+
+.budgetW-week-end, .budgetW-semaine{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+.budgetW-week-end{
+    margin-left: 15%;
+}
+
+.budgetW-week-end caption, .budgetW-semaine caption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: rgb(122, 116, 116);
+}
+
+th, td{
+    border: 1px black solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.budgetW-week-end th{
+    line-height: 30px;
+    width: 10vh;
+}
+
+.budgetW-week-end td{
+    line-height: 30px;
+}
+
+.budgetW-semaine th{
+    line-height: 35px;
+    width: 25vh;
+    font-weight: bold;
+}
+
+.budgetW-semaine td{
+    line-height: 35px;
+}
+
+.budgetW-semaine{
+    margin-left: 25%;
+}
+
+.budget-week-end, .budget-semaine{
+    margin-top: 5%;
+}
+
+/* SECTION : WISSEMBOURG MOMENTS */
+
+#calendrier img, #meteo img{
+    width: 150px;
+}
+
+#calendrier, #meteo{
+    margin-top: 5%;
+}
+
+.periodes p, .climat p{
+    font-size: 14px;
+    text-indent: 50px;
+    text-align: start;
+    margin-top: 2.5%;
+}
+
+.periodes, .climat{
+    width: 65%;
+    margin-left: 40px;
+}
+
+.w-moment1, .w-moment2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+}
+
+.wissembourg-moments{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3%;
+    border-radius: 10px;
+    background: linear-gradient(to right, white, rgb(178, 240, 248), rgb(158, 200, 247), rgb(241, 241, 193), rgb(243, 218, 171));
+}
+
+.wissembourg-moments h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:#e40520;
+}

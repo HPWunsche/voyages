@@ -1,0 +1,295 @@
+/* INTRODUCTION */
+
+.introduction{
+    background-color: rgb(221, 229, 241);
+}
+
+.introduction h1{
+    padding-top: 5%;
+}
+
+.introduction h1, .introduction h2{
+    text-transform: uppercase;
+}
+
+.introduction h2{
+    margin-bottom: 5%;
+}
+
+/* Laos-infos */
+#laos-drapeau img{
+    margin-left: 10%;
+}
+
+.laos-infos{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Laos : symboles et informations pratiques */
+
+#laos-symbols img{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.laos-symbols-infos{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Tableaux : informations pratiques, budget de voyage */
+
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: 1px black solid;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+table caption{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+}
+
+tr{
+    border: 1px black solid;
+    height: 50px;
+}
+
+th{
+    width: 200px;
+    border: 1px black solid;
+}
+
+td{
+    border: 1px black solid;
+    text-align: center;
+}
+
+.infos-pratiques{
+    margin-left: 15%;
+}
+
+.laos-symbol2 img{
+    width: 300px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+#monnaie1 img, #monnaie2 img{
+    width: 300px;
+    margin-left: 10%;
+}
+
+.budget-jour{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.budget-15jours{
+    margin-left: 5%;
+}
+
+.budget-voyage{
+    margin-top: 5%;
+}
+
+.budget-voyage-tx, .budget2{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Carrousel d'images */
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    
+div#slider { 
+    overflow: hidden; 
+}
+    
+div#slider figure img { 
+    width: 20%; 
+    float: left; 
+    border-radius: 10px;
+}
+
+div#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+}
+    
+/* Présentation */
+
+.presentation{
+    background-color: rgb(221, 229, 241);
+}
+
+.laos-infos p, .presentation p{
+    text-indent: 30px;
+    line-height: normal;
+    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+/* MAIN-CONTENT */
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: auto;
+    margin-top: 10%;
+}
+
+/* ASIDE */
+
+aside{
+    margin-right: -20%;
+}
+
+#old-img img {
+    width: 100px;
+    height: 130px;
+    border-radius: 5px; 
+}
+
+#new-img img{
+    width: 120px;
+    height: 80px;
+    border-radius: 5px; 
+}
+
+.old-articles, .new-articles{
+    margin-top: 15vh;
+    /*margin-left: -15%;
+    padding-right: -15%;*/
+}
+
+.old-articles h3, .new-articles h3{
+    color: blue;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: black 1px solid;
+    margin-left: 15%;
+}
+
+.old-art1 a, .old-art2 a, .old-art3 a, .old-art4 a, 
+.new-art1 a, .new-art2 a, .new-art3 a, .new-art4 a{
+    text-decoration: none;
+}
+
+.old-art1 a h4, .old-art2 h4, .old-art3 a h4, .old-art4 a h4,
+.new-art1 a h4, .new-art2 h4, .new-art3 a h4, .new-art4 a h4{
+    color: black;
+    width: 100px;
+    font-size: 11px;
+    margin-left: 40%;
+} 
+
+.old-art1, .old-art2, .old-art3, .old-art4,
+.new-art1, .new-art2, .new-art3, .new-art4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 5vh;
+}
+
+.old-art1 p, .old-art2 p, .old-art3 p, .old-art4 p,
+.new-art1 p, .new-art2 p, .new-art3 p, .new-art4 p{ 
+    margin-top: -1%;
+    font-size: 10px;
+    text-align: start;
+    margin-left: 10%;
+} 
+
+
+/* MAIN */
+
+main{
+    margin-right: 20%;
+}
+
+#art-img img{
+    width: 70vh;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.art-tx{
+    margin-top: 10px;
+}
+
+.art-tx a{
+    text-decoration: none;
+}
+
+.art-tx a h3{
+    text-align: center;
+    color: rgb(35, 228, 35);
+    margin-left: 100px;
+}
+
+.art-tx p{
+    width: 55vh;
+    margin-left: 100px;
+    margin-top: 5vh;
+    font-size: 12px;
+    text-indent: 30px;
+    line-height: normal;
+    text-align: left;
+}
+
+.art1, .art2, .art3, .art4, .art5, .art6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 20%;
+    margin-bottom: 40px;
+}
+
+/* Budget voyage */
+
+.budget-voyage article p{
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Section : Quand partir au Laos */

@@ -1,0 +1,394 @@
+/* INTRODUCTION */
+
+.introduction{
+    background-color: aquamarine;
+}
+
+.introduction h1{
+    padding-top: 5%;
+}
+
+.introduction h1, .introduction h2{
+    text-transform: uppercase;
+}
+
+.introduction h2{
+    margin-bottom: 5%;
+}
+
+#argentina-drapeau img{
+    width: 200px;
+}
+
+#argentina-drapeau{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#argentina-drapeau figcaption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-style: oblique;
+    font-weight: 200;
+    width: 140px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.argentina-infos-tx{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.argentina-infos-tx p{
+    text-align: start;
+    text-indent: 25px;
+    line-height: normal;
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.argentina-infos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+#argentina-symbols img, #argentina-symbols2 img{
+    width: 150px;
+}
+
+#argentina-symbols, #argentina-symbols2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#argentina-symbols figcaption, #argentina-symbols2 figcaption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-style: oblique;
+    font-weight: 200;
+    width: 140px;
+    text-align: center;
+}
+
+.argentina-symbols-infos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.infos-pratiques, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.infos-pratiques caption{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.infos-pratiques tr{
+    line-height: 30px;
+}
+
+.infos-pratiques th, td{
+    text-align: center;
+}
+
+.infos-pratiques th{
+    width: 15%;
+}
+
+.infos-pratiques td{
+    width: 35%;
+}
+
+.infos-pratiques{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5%;
+}
+
+    /*Carrousel d'images */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+    /* Présentation */
+
+.tourisme-equitable a img{
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.tourisme-equitable{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.presentation-tx p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    line-height: normal;
+    text-indent: 25px;
+    text-align: justify;
+    width: 35%;
+}
+
+.presentation-tx{
+   display: flex;
+   flex-direction: row;   
+}
+
+.argentina-presentation{
+   display: flex;
+   flex-direction: row;
+    margin-left: 15%;
+    padding-bottom: 5%;
+}
+
+
+/* ASIDE */
+
+aside{
+    margin-left: -20px;
+    /*margin-right: 5%;*/
+}
+
+#old-img img {
+    width: 100px;
+    height: 130px;
+    border-radius: 5px; 
+}
+
+#new-img img{
+    width: 120px;
+    height: 80px;
+    border-radius: 5px; 
+}
+
+.old-articles, .new-articles{
+    margin-top: 15vh;
+    margin-right: 2.5%;
+}
+
+.old-articles h3, .new-articles h3{
+    color: blue;
+    font-size: 1em;
+    margin-left: 50px;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: black 1px solid;
+}
+
+.old-art1 a, .old-art2 a, .old-art3 a, .old-art4 a, 
+.new-art1 a, .new-art2 a, .new-art3 a, .new-art4 a{
+    text-decoration: none;
+}
+
+.old-art1 a h4, .old-art2 h4, .old-art3 a h4, .old-art4 a h4,
+.new-art1 a h4, .new-art2 h4, .new-art3 a h4, .new-art4 a h4{
+    color: black;
+    width: 100px;
+    font-size: 11px;
+    margin-left: 40px;
+} 
+
+.old-art1, .old-art2, .old-art3, .old-art4,
+.new-art1, .new-art2, .new-art3, .new-art4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 5vh;
+    margin-right: -20vh;
+}
+
+.old-art1 p, .old-art2 p, .old-art3 p, .old-art4 p,
+.new-art1 p, .new-art2 p, .new-art3 p, .new-art4 p{ 
+    margin-top: -1%;
+    margin-left: 30px;
+    font-size: 10px;
+    text-align: left;
+} 
+
+/* MAIN-CONTENT */
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+}
+
+/* MAIN */
+
+#art-img img{
+    width: 70vh;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.art-tx{
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+
+.art-tx a{
+    text-decoration: none;
+}
+
+.art-tx a h3{
+    text-align: center;
+    color: rgb(35, 228, 35);
+}
+
+.art-tx p{
+    width: 45vh;
+    margin-left: 15px;
+    margin-top: 1.5vh;
+    text-indent: 15px;
+    line-height: normal;
+    font-size: 12px;
+    text-align: left;
+}
+
+.art1, .art2, .art3, .art4, .art5, .art6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 15%;
+    margin-bottom: 40px;
+}
+
+/* Section : budget de voyage, climat, moment pour voyager en Argentine */
+
+    /* Budget de voyage */
+
+.budget-jour, .budget-15jours{
+    border-collapse: collapse;
+}
+
+    /* Climat en Argentine */
+    
+    /* Moments pour voyager */
